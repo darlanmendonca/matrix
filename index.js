@@ -19,9 +19,6 @@ function connectedCell(matrix) {
           matrix[arrayIndex][index] = group
         }
       }
-      // else {
-      //   matrix[arrayIndex][index] = 0
-      // }
       
       function getMatches(currentArray, currentIndex, previousMatches = []) {
         const top = currentArray - 1
